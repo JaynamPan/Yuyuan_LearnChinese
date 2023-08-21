@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="31dp"
+        android:height="31dp"
+        android:drawable="@drawable/vector_circle_calendar_blue"
+        android:gravity="center" />
+    <item
+        android:width="26dp"
+        android:height="26dp"
+        android:drawable="@drawable/calendar_day_gray_bg"
+        android:gravity="center" />
+</layer-list>

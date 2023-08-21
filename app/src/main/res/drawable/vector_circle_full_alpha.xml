@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32" android:viewportHeight="32"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="circle_group" android:pivotX="16" android:pivotY="16">
+        <path android:name="circle" android:fillColor="#77ffffff" android:pathData="M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16" />
+    </group>
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PinyinTextView">
+        <attr name="customColor" format="color" />
+        <attr name="customTextSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CalendarView">
+        <attr name="cv_dayViewResource" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yuyuan"
+        tools:targetApi="33">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Yuyuan">
+
+        </activity>
+        <activity
+            android:name=".init.InitActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.HomeActivity" />
+        <activity android:name=".ui.SettingActivity" />
+        <activity android:name=".ui.ProfileActivity" />
+        <activity android:name=".ui.AboutActivity" />
+        <activity android:name=".quiz.ReviewActivity"/>
+        <activity android:name=".quiz.ShowAnswerActivity"/>
+        <activity android:name=".quiz.ShowQuestionActivity"/>
+        <activity android:name=".quiz.QuizCharacterActivity"/>
+        <activity android:name=".calendar.CalendarActivity"/>
+    </application>
+
+</manifest>
